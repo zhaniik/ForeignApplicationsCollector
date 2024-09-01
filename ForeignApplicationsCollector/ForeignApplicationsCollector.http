@@ -1,0 +1,6 @@
+@ForeignApplicationsCollector_HostAddress = http://localhost:5049
+
+GET {{ForeignApplicationsCollector_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
